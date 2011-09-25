@@ -1,0 +1,507 @@
+/*
+Theme Name: Naksh
+Theme URI: none
+Description: Child Theme for Starkers
+Author: knows
+Author URI: none
+Template: Starkers
+Version: 0.1
+*/
+
+@import url("../Starkers/style.css");
+@import url("960/960.css");
+@import url("960/reset.css");
+
+body{
+	background-color: #e5e3e3;
+	background-image: url("images/bg2.jpg");
+}
+
+h1{
+	font-family: Arial;
+	font-size: 56px;
+	text-align: center;
+}
+
+h1 a{
+	color: #636363;
+	text-decoration: none;
+}
+
+#header p{
+	font-family: Arial;
+	font-size: 26px;
+	color: white;
+	text-shadow: 0px 1px 2px black;
+	text-align: center;
+}
+
+hr{
+	background-image: url("images/sep.png");
+	background-repeat: repeat-x;
+	margin: 5px 0 40px 0;
+	height: 2px;
+}
+
+div#footer{
+	background-color: #435566;
+	color: #ffffff;
+	background-image: url('images/footer-head.png'),url('images/bg1.jpg');
+	background-repeat: repeat-x,repeat;
+}
+
+div#footer a{
+	color: #ffffff;
+}
+
+div#footer div.container_12{
+	padding: 20px 0;
+}
+
+div#footer div.container_12 ul{
+	margin-bottom: 20px;
+}
+
+div#footer div.container_12 a[title="Naksh Theme"]{
+	text-decoration: none;
+	font-weight: bolder;
+	font-style: italic;
+	font-size: 18px;
+	padding: 0 10px;
+}
+
+div#footer div.container_12 a[title="Semantic Personal Publishing Platform"]{
+	float: right;
+}
+
+div#post a.post-edit-link{
+	border: 1px solid grey;
+	padding: 3px 21px;
+	border-radius: 15px;
+	background: #EEE;
+	background: -moz-linear-gradient(top, #EEE 0%, #CCC 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EEE), color-stop(100%,#CCC));
+	background: -webkit-linear-gradient(top, #EEE 0%,#CCC 100%);
+	background: -o-linear-gradient(top, #EEE 0%,#CCC 100%);
+	background: -ms-linear-gradient(top, #EEE 0%,#CCC 100%);
+	color: #000000;
+}
+
+div#sidebar.grid_4{
+	float: right;
+}
+
+div#main_content.grid_8{
+	float: left;
+}
+
+div#main_content.grid_8 h1{
+	font-size: 28px;
+	color: #B5B4B4;
+	margin-bottom: 20px;
+}
+
+div#post{
+	outline: 1px solid #B5B4B4;
+	border: 1px solid white;
+	background-color: #F3EEEE;
+	padding: 10px;
+	margin-bottom: 25px;
+	background-image: url('images/post-gradient.png');
+	background-repeat: repeat-x;
+	position: relative;
+}
+
+div#post h2{
+	font-family: Arial;
+	font-size: 40px;
+
+}
+
+div#post h2 a{
+	color: #000000;
+	text-decoration: none;
+	color: #707272;
+}
+
+div#access.grid_10.prefix_1.suffix_1 #skip_content{
+	display: none;
+}
+
+div.menu ul li{
+	float: left;
+	margin-right: 40px;
+	font-family: sans-serif;
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+div.menu{
+	margin-top: 30px;
+	border: 2px solid #DD88FD;
+}
+
+div.menu ul{
+	background-image: url("images/menubar.png");
+}
+
+div.menu li a{
+	text-decoration: none;
+	color: black;
+	text-shadow: 1px 1px 2px white;
+	font-size: 22px;
+	font-family: Helvetica;
+}
+
+div.menu li a:hover{
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+div#posted_on{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: italic;
+	color: #636363;
+	margin-bottom: 10px;
+}
+
+div#posted_on a{
+	text-decoration: none;
+}
+
+div#posted_on a:hover{
+	color: #e01919;
+}
+
+div#extra{
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+div#post p{
+	margin-bottom: 9px;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 10px 0;
+	margin-top: 10px;
+}
+
+a#skip_content{
+	display: none;
+}
+
+div#sidebar h3.widget-title{
+	background: #7db9e8; /* Old browsers */
+	background: -moz-linear-gradient(top, #7db9e8 0%, #207cca 0%, #c32929 1%, #f81a1a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(0%,#207cca), color-stop(1%,#c32929), color-stop(100%,#f81a1a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #7db9e8 0%,#207cca 0%,#c32929 1%,#f81a1a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #7db9e8 0%,#207cca 0%,#c32929 1%,#f81a1a 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #7db9e8 0%,#207cca 0%,#c32929 1%,#f81a1a 100%); /* IE10+ */
+	margin: -2px;
+	z-index: 20;
+	font-family: impact;
+	color: white;
+	padding: 5px;
+	font-size: 19px;
+	font-weight: normal;
+}
+
+div#sidebar ul.xoxo li.widget-container{
+	outline: 1px solid #B5B4B4;
+	border: 1px solid white;
+	background-color: #F3EEEE;
+	margin-bottom: 24px;
+}
+
+div#sidebar ul.xoxo li.widget-container ul{
+	padding: 10px;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+div#sidebar ul.xoxo li.widget-container ul li{
+	margin-bottom: 5px;
+}
+
+div#sidebar ul.xoxo li.widget-container ul li:hover a{
+	padding-left: 2px;
+	color: #000000;
+}
+
+div#sidebar ul.xoxo li.widget-container ul li a{
+	color: #707272;
+	text-decoration: none;
+}
+
+form#commentform input{
+	margin-left: 50px;
+	box-shadow: inset 1px 1px 2px grey,1px 1px 3px grey;
+	border: 1px solid grey;
+	border-radius: 5px;
+	height: 30px;
+	color: grey;
+}
+
+p.comment-form-comment textarea#comment{
+	border: 1px solid grey;
+	border-radius: 5px;
+	box-shadow: inset 1px 1px 2px grey,1px 1px 2px grey;
+	margin-left: 40px; 
+}
+
+h3#comments-title{
+	color: #707272;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+div.comment-author.vcard img.avatar.avatar-40.photo{
+	border: 5px solid white;
+}
+
+cite.fn{
+	margin-left: 13px;
+	font-weight: bolder;
+}
+
+div.comment-author.vcard{
+	font-family: Verdana;
+	font-size: 14px;
+	color: #707272;
+}
+
+div.comment-meta.commentmetadata{
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-bottom: 8px;
+	font-style: italic;
+}
+
+div#comments ol li{
+	border-radius: 1px;
+	border: 1px solid grey;
+	padding: 10px;
+	margin-bottom: 5px;
+	margin-bottom: 14px;
+	box-shadow: inset 1px 1px 4px grey,inset -1px -1px 4px grey;
+	background: #d6f9ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #d6f9ff 0%, #9ee8fa 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6f9ff), color-stop(100%,#9ee8fa)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #d6f9ff 0%,#9ee8fa 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #d6f9ff 0%,#9ee8fa 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #d6f9ff 0%,#9ee8fa 100%); /* IE10+ */
+}
+
+div#post h1#single_post{
+	text-align: left;
+	font-size: 40px;
+	color: #707272;
+	padding: 2px;
+	margin-bottom: 10px;
+	width: 450px;
+	font-family: Georgia;
+}
+
+div#main_content.grid_8 div#post p{
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 10px;
+}
+
+div#sidebar.grid_4 ul.xoxo li#search-2{
+	color: #707272;
+	padding: 10px;
+	overflow: hidden;
+}
+
+div#post_nav{
+	display: none;
+}
+
+label.screen-reader-text{
+	display: none;
+}
+
+input#searchsubmit{
+	border: 1px solid grey;
+	width: 55px;
+	margin-left: 4px;
+	background: #EEE;
+	background: -moz-linear-gradient(top, #EEE 0%, #CCC 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EEE), color-stop(100%,#CCC));
+	background: -webkit-linear-gradient(top, #EEE 0%,#CCC 100%);
+	background: -o-linear-gradient(top, #EEE 0%,#CCC 100%);
+	background: -ms-linear-gradient(top, #EEE 0%,#CCC 100%);
+	color: #000000;
+	font-weight: normal;
+	border-radius: 15px;
+	width: 55px;
+	height: 22px;
+	cursor: pointer;
+}
+
+input#searchsubmit:hover{
+	background: #e7e9e6;
+}
+
+input#s{
+	border: 1px solid grey;
+	box-shadow: 1px 1px 3px grey;
+	height: 22px;
+	width: 200px;
+	border-radius: 5px;
+}
+
+h3#reply-title{
+	color: #707272;
+	font-family: Arial;
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+hr#single_post{
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+hr#page_hr{
+	margin: 20px 0 10px 0;
+}
+
+div#comments div#respond form#commentform p.form-allowed-tags{
+	color: black;
+	font-size: 12px;
+}
+
+form#commentform{
+	color: #707272;
+}
+
+form#commentform p.comment-form-email input#email{
+	margin-left: 57px;
+}
+
+form#commentform p.comment-form-author input#author{
+	margin-left: 55px;
+}
+
+form#commentform p.form-submit input#submit{
+	border: 1px solid grey;
+	padding: 4px 11px;
+	box-shadow: none;
+	border-radius: 25px;
+	color: #000000;
+	background: #EEE;
+	background: -moz-linear-gradient(top, #EEE 0%, #CCC 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EEE), color-stop(100%,#CCC));
+	background: -webkit-linear-gradient(top, #EEE 0%,#CCC 100%);
+	background: -o-linear-gradient(top, #EEE 0%,#CCC 100%);
+	background: -ms-linear-gradient(top, #EEE 0%,#CCC 100%);
+	cursor: pointer;
+}
+
+form#commentform p.form-submit input#submit:hover{
+	background: #e7e9e6;
+}
+
+div#extra{
+	color: #707272;
+	font-size: 12px;
+}
+
+div#extra a{
+	text-decoration: none;
+}
+
+div.reply a.comment-reply-link{
+	border: 1px solid grey;
+	padding: 3px 20px;
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+	border-radius: 14px;
+	background: #EEE;
+	background: -moz-linear-gradient(top, #EEE 0%, #CCC 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EEE), color-stop(100%,#CCC));
+	background: -webkit-linear-gradient(top, #EEE 0%,#CCC 100%);
+	background: -o-linear-gradient(top, #EEE 0%,#CCC 100%);
+	background: -ms-linear-gradient(top, #EEE 0%,#CCC 100%);
+	cursor: pointer;
+}
+
+div.reply a.comment-reply-link:hover{
+	background: #e7e9e6;
+}
+
+ul.children{
+	margin-top: 11px;
+}
+
+div#respond form#commentform p.logged-in-as{
+	font-size: 13px;
+	font-style: italic;
+	padding: 0;
+}
+
+div#main_content.grid_8 h2{
+	font-family: sans-serif;
+	color: #707272;
+	margin-bottom: 13px;
+	font-size: 40px;
+}
+
+div#footer h3.widget-title{
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 6px;
+}
+
+body.archive.author div.container_12 div.grid_8 h1{
+	color: #B7B8B6;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+div#post div#posted_on a span.entry-date{
+	background: url('images/date.png');
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: -3px;
+	margin-right: 10px;
+	padding: 10px 5px 18px;
+	background-size: 100% 100%;
+	color: white;
+	font-family: Georgia;
+	font-size: 13px;
+	background-repeat: no-repeat;
+	font-weight: bolder;
+}
+
+div#post a span.entry-date{
+	background: url('images/date.png');
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: -3px;
+	margin-right: 10px;
+	padding: 10px 5px 18px;
+	background-size: 100% 100%;
+	color: white;
+	font-family: Georgia;
+	font-size: 13px;
+	background-repeat: no-repeat;
+	font-weight: bolder;
+}
+
+div#post a[rel="bookmark"]{
+	text-decoration: none;
+	font-family: Georgia;
+}
+
+span.meta-prep.meta-prep-author{
+	display: none;
+}
