@@ -102,7 +102,7 @@
 	<div id="post">
 	
 			<h2><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-			<div id="posted_on"><?php twentyten_posted_on(); ?></div>
+			<div id="posted_on"><?php the_time('F jS, Y'); ?></div>
 
 	<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
 			<?php the_excerpt(); ?>

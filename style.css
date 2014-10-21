@@ -1,14 +1,15 @@
 /*
-Theme Name: Naksh
-Theme URI: none
-Description: Child Theme for Starkers
-Author: knows
-Author URI: none
-Template: Starkers
-Version: 0.1
+Theme Name: 	Naksha
+Theme URI: 		https://github.com/raynesax/Naksha
+Description: 	A vintage Wordpress theme
+Version: 		1.0
+Author: 		Rajat Saxena
+Author URI: 	http://raynstudios.in
+Tags: 			naksha, vintage, clean, basic
+Template: starkers
 */
 
-@import url("../Starkers/style.css");
+@import url("../starkers/style.css");
 @import url("960/960.css");
 @import url("960/reset.css");
 
